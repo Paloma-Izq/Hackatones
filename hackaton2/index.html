@@ -5,62 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 </head>
 <body>
     <!-- Bloque 1: Hero -->
-    <section>
-        <img style="width: 50%; height: 50%" src="img/Header.png" />
-        <h1>FrontEnd</h1>
-        <p>Hola, mi nombre es Pal</p>
+    <section class="banner">
+        <div class="front-title">FrontEnd</div>
+        <div class="under-title"><p>Hola, mi nombre es Pal</p></div>
     </section>
     
     <!-- Bloque 2: Sobre Mí -->
-    <section>
-        <h2>Sobre mí</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima provident iure doloribus expedita ex explicabo dolorem, facilis, tempora commodi quas accusantium aut modi numquam deleniti perferendis dolore, voluptates corporis. Totam.</p>
-            <button>Ver CV</button>
-        </section>
+    <section class="sobremi">
+        <h2 style="color:#1D06A7">Sobre mí</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse.</p>
+        <p><button class="botoncv">Ver CV</button></p>
+        <br/>
+        <br/>
+    </section>
 
     <!-- Bloque 3: Mis Skills -->
-    <section>
-        <h2>Mis Skills</h2>
+    <section class="misskills">
+        <h2 style="color: #26CC4B;">Mis Skills</h2>
         <div class="wrapper-skills">
             <!-- Elemento 1 -->
-            <section>
-                <div>Html</div>
+            <div class="grid-item">
+                <p>Html</p>
                 <progress id="html" max="100" value="70"></progress>
-            </section>
+            </div>
 
             <!-- Elemento 2 -->
-            <section>
-                <div>Java</div>
+            <div class="grid-item">
+                <p>Java</p>
                 <progress id="html" max="100" value="80"></progress>
-            </section>
+            </div>
 
             <!-- Elemento 3 -->
-            <section>
-                <div>Flexbox</div>
+            <div class="grid-item">
+                <p>Flexbox</p>
                 <progress id="html" max="100" value="95"></progress>
-            </section>
+            </div>
 
             <!-- Elemento 4 -->
-            <section>
-                <div>CSS</div>
+            <div class="grid-item">
+                <p>CSS</p>
                 <progress id="html" max="100" value="85"></progress>
-            </section>
+            </div>
 
             <!-- Elemento 5 -->
-            <section>
-                <div>Vue</div>
+            <div class="grid-item">
+                <p>Vue</p>
                 <progress id="html" max="100" value="80"></progress>
-            </section>
+            </div>
 
             <!-- Elemento 6 -->
-            <section>
-                <div>CSS Grrid</div>
+            <div class="grid-item">
+                <p>CSS Grrid</p>
                 <progress id="html" max="100" value="60"></progress>
-            </section>
+            </div>
         </div>
+        <br/>
+        <br/>
     </section>
 
     <!-- Bloque 4: Portafolio -->

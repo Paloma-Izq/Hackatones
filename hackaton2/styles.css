@@ -1,0 +1,111 @@
+@media (min-width:700px){
+    
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0 300px;
+    padding: 30px;
+    font-family: "Lato", sans-serif;
+    color: #F8F8F8;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 15px;
+}
+
+.banner {
+    background-image: url(img/Header.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+
+.front-title {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    color: white;
+    font-size: 36px;
+    margin-right: 20px;
+}
+
+.under-title {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: #729afe7c;
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+}
+
+.sobremi {
+    background-color: #7299FE;
+    padding: 20px;
+}
+
+.sobremi p {
+    padding: 0 20px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.botoncv {
+    border-radius: 20px;
+    border-color: transparent;
+    background: #D16FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 187px;
+    height: 62px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.misskills {
+    background-color: #9022FF;;
+    padding: 20px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+progress {
+    appearance: none;
+  }
+  
+  progress::-webkit-progress-bar {
+    border-radius: 10em;
+    background: #fff;
+  }
+  
+  progress::-webkit-progress-value {
+    border-radius: 10em;
+    background: #57EFF9;
+  }
+
+  .wrapper-skills {
+    padding: 0 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .wrapper-skills p {
+    padding: 10px;
+  }
