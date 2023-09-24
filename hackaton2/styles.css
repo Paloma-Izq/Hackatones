@@ -34,6 +34,7 @@ h2 {
 }
 
 .under-title {
+    border-radius: 10px;
     position: absolute;
     bottom: 20px;
     left: 0;
@@ -187,6 +188,27 @@ input::placeholder {
 }
 
 .grid5 input {
-    width: 54em;
+    width: 53em;
     height: 10em;
  }
+
+
+.send {
+    background: #233451;
+    width: 167px;
+    height: 56px;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.enviar {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
