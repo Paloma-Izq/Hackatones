@@ -1,7 +1,3 @@
-@media (min-width:700px){
-    
-  }
-
 * {
     box-sizing: border-box;
   }
@@ -92,6 +88,7 @@ progress {
   progress::-webkit-progress-bar {
     border-radius: 10em;
     background: #fff;
+    width: 18em;
   }
   
   progress::-webkit-progress-value {
@@ -101,11 +98,95 @@ progress {
 
   .wrapper-skills {
     padding: 0 60px;
+    align-items: start;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
   }
 
   .wrapper-skills p {
     padding: 10px;
   }
+
+  .portafolio {
+    background-color: #FFD233;
+    padding: 20px;
+  }
+
+  .grid2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px 100px;
+  }
+  
+  .grid2 img {
+    width: 100%;
+    max-width: 140px;
+    height: 92px;
+    object-fit: cover;
+  }
+
+  .clientes {
+    background-color: #3F4E62;;
+    padding: 20px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.grid3 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px 20px;
+}
+  
+.grid3 img {
+    max-width: 178px;
+    max-height: 67px;
+}
+
+.contacto {
+    background-color: #1687A0;
+    padding: 20px 30px;
+}
+
+.grid4 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px 30px;
+}
+
+.fieldset {
+    border: none;
+}
+
+.grid4 input {
+   width: 25em;
+   height: 4em;
+}
+
+input::placeholder {
+    padding: 5px;
+}
+
+.grid5 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 0px 30px;
+}
+
+.grid5 input {
+    width: 54em;
+    height: 10em;
+ }
