@@ -84,12 +84,12 @@ h2 {
 
 progress {
     appearance: none;
+    width: 100%;
   }
   
   progress::-webkit-progress-bar {
     border-radius: 10em;
     background: #fff;
-    width: 18em;
   }
   
   progress::-webkit-progress-value {
@@ -99,10 +99,10 @@ progress {
 
   .wrapper-skills {
     padding: 0 60px;
-    align-items: start;
     display: grid;
+    align-items: stretch;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 25px;
   }
 
   .wrapper-skills p {
